@@ -1,0 +1,26 @@
+<html>
+
+<head></head>
+
+<body>
+    <button id="mover" style="background-color: red;" onmouseover="changeColor_MOver()">Mouse Over</button>
+    <button id="mout" style="background-color: blue;" onmouseout="chageColor_MOut()">Mouse Out</button>
+    <button id="mclick" style="background-color: green;" onclick="changeColor_Click()">Click </button>
+    <button id="mdblclick" style="background-color: yellow;" ondblclick="changeColor_DblClick()">Double Click</button>
+    <script>
+        function changeColor_MOver() {
+            document.getElementById('mover').style.backgroundColor = "yellow"
+        }
+        function chageColor_MOut() {
+            document.getElementById('mout').style.backgroundColor = "green"
+        }
+        function changeColor_Click() {
+            document.getElementById('mclick').style.backgroundColor = "red"
+        }
+        function changeColor_DblClick() {
+            document.getElementById('mdblclick').style.backgroundColor = "blue"
+        }
+    </script>
+</body>
+
+</html>

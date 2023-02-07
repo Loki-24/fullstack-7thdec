@@ -4,4 +4,4 @@ class Account {
     }
 }
 //ES5
-moduel.exports = Account
+module.exports = Account
